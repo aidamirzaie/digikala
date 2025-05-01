@@ -5,31 +5,35 @@ import "./App.css";
 import CardSlider from "./components/cardslider/CardSlider";
 import ProductCard from "./components/productcard/ProductCard";
 import mobileimg from "./assets/mobile.webp";
-import headimg from './assets/headset.webp'
+import headimg from "./assets/headset.webp";
 import Avatar from "./components/avatar/Avatar";
+import CarRental from "@mui/icons-material/CarRental";
+import AcUnitTwoTone from "@mui/icons-material/AcUnitTwoTone";
 
 function App() {
   const [count, setCount] = useState(0);
-  const Mystyle={
-    width:'70px',
-    height:'70px',
-    borderRadius: '100%',
-    backgroundColor:'red'
-
-    }
-    const styles={
-      width:'80px',
-    height:'80px',
-    borderRadius: '90%',
-    backgroundColor:'blue'
-
-    }
+  const Mystyle = {
+    width: "70px",
+    height: "70px",
+    borderRadius: "100%",
+    backgroundColor: "red",
+  };
+  const styles = {
+    width: "80px",
+    height: "80px",
+    borderRadius: "90%",
+    backgroundColor: "blue",
+  };
 
   return (
     <>
       <h1>digikala</h1>
-      <Avatar style={Mystyle}></Avatar>
-      <Avatar style={styles}></Avatar>
+      <Avatar style={Mystyle}>
+        <CarRental></CarRental>
+      </Avatar>
+      <Avatar style={styles}>
+        <AcUnitTwoTone></AcUnitTwoTone>
+      </Avatar>
       <CardSlider>
         <ProductCard
           title="phone"
