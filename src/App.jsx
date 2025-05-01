@@ -6,6 +6,7 @@ import CardSlider from "./components/cardslider/CardSlider";
 import ProductCard from "./components/productcard/ProductCard";
 import mobileimg from "./assets/mobile.webp";
 import headimg from './assets/headset.webp'
+import Avatar from "./components/avatar/Avatar";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,6 +14,7 @@ function App() {
   return (
     <>
       <h1>digikala</h1>
+      <Avatar></Avatar>
       <CardSlider>
         <ProductCard
           title="phone"
