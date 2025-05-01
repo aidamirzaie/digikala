@@ -1,14 +1,14 @@
-import mobileimg from '../../assets/mobile.webp'
+
 import './ProductCard.css'
-function ProductCard(){
+function ProductCard(props){
     return(
         <>
          <div className="card"> 
-             <img className="myimage" src={mobileimg} alt="this is amn image"/>
-             <h5 className="item title"> blutooth hedfon model</h5>
-             <p className="discount">8,400,000 Rial</p>
-             <p className="discount_percentage">40%</p>
-             <p className="price">11,120,000 Rial</p>
+             <img className="myimage" src={props.img} alt="this is amn image"/>
+             <h5 className="item title">{props.title}</h5>
+             <p className="discount">{props.discount}</p>
+             <p className="discount_percentage">{props.discount_percentage}</p>
+             <p className="price">{props.price}</p>
 
              </div>
         
