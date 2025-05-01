@@ -10,11 +10,26 @@ import Avatar from "./components/avatar/Avatar";
 
 function App() {
   const [count, setCount] = useState(0);
+  const Mystyle={
+    width:'70px',
+    height:'70px',
+    borderRadius: '100%',
+    backgroundColor:'red'
+
+    }
+    const styles={
+      width:'80px',
+    height:'80px',
+    borderRadius: '90%',
+    backgroundColor:'blue'
+
+    }
 
   return (
     <>
       <h1>digikala</h1>
-      <Avatar></Avatar>
+      <Avatar style={Mystyle}></Avatar>
+      <Avatar style={styles}></Avatar>
       <CardSlider>
         <ProductCard
           title="phone"

@@ -1,10 +1,11 @@
 
-import './Avatar.css'
 import CarRental from '@mui/icons-material/CarRental';
-function Avatar(){
+function Avatar(props){
+  
+
     return(
         <>
-        <div class='box'>
+        <div style={props.style}>
             <CarRental/>
 
         </div>
