@@ -1,4 +1,5 @@
 import mobileimg from '../../assets/mobile.webp'
+import './ProductCard.css'
 function ProductCard(){
     return(
         <>
