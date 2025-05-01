@@ -1,4 +1,6 @@
 import ProductCard from "../productcard/ProductCard";
+import './cardslider.css'
+
 function CardSlider()
 {
     return(

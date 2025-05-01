@@ -1,0 +1,6 @@
+.slider{
+    display: flex;
+    flex-direction: row;
+    border:2px solid red;
+    padding: 10px;
+}
