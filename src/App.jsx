@@ -6,9 +6,12 @@ import CardSlider from "./components/cardslider/CardSlider";
 import ProductCard from "./components/productcard/ProductCard";
 import mobileimg from "./assets/mobile.webp";
 import headimg from "./assets/headset.webp";
-import Avatar from "./components/avatar/Avatar";
+import Avatar from './components/atom/avatar/Avatar';
 import CarRental from "@mui/icons-material/CarRental";
 import AcUnitTwoTone from "@mui/icons-material/AcUnitTwoTone";
+import Label from "./components/atom/label/Label"
+
+
 
 function App() {
   const [count, setCount] = useState(0);
@@ -34,6 +37,9 @@ function App() {
       <Avatar style={styles}>
         <AcUnitTwoTone></AcUnitTwoTone>
       </Avatar>
+      <Label text="کد تخفیف">
+        
+      </Label>
       <CardSlider>
         <ProductCard
           title="phone"
