@@ -12,6 +12,11 @@ import AcUnitTwoTone from "@mui/icons-material/AcUnitTwoTone";
 import Label from "./components/atom/label/Label";
 import Highlight from "./components/molecule/highlights/Highlight";
 import watchimg from './assets/watch.webp';
+import handsimg from './assets/hands.webp';
+import hiscaimg from'./assets/hisca.webp';
+import laptapimg from'./assets/laptap.webp';
+import lapimg from './assets/lap.webp';
+
 function App() {
   return (
     <>
@@ -40,8 +45,36 @@ function App() {
           title="ساعت هوشمند"
           discount="3,990,000 تومان"
           discount_percentage="33%"
-          price="5,970,00 تومان"
+          price="5,970,000تومان"
+          img={handsimg}
+        />
+        <ProductCard
+          title="هندرفری ایکس او"
+          discount="144,000 تومان"
+          discount_percentage="43%"
+          price="253,000 تومان"
           img={watchimg}
+        />
+        <ProductCard
+          title="هندرفری بلوتوثی هیسکا مدل"
+          discount="1,790,000 تومان"
+          discount_percentage="30%"
+          price="2,550,000 تومان"
+          img={hiscaimg}
+        />
+        <ProductCard
+          title="لپ تاپ 15.6 اینچی ایسوس"
+          discount="75,999,000 تومان"
+          discount_percentage="8%"
+          price="82,800,000 تومان"
+          img={laptapimg}
+        />
+        <ProductCard
+          title='لپ تاپ 14.1 اینجی اپل مدل'
+          discount="124,499,000 تومان"
+          discount_percentage="5%"
+          price="131,499,000 تومان"
+          img={lapimg}
         />
       </CardSlider>
       <div>
