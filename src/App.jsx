@@ -11,7 +11,7 @@ import CarRental from "@mui/icons-material/CarRental";
 import AcUnitTwoTone from "@mui/icons-material/AcUnitTwoTone";
 import Label from "./components/atom/label/Label";
 import Highlight from "./components/molecule/highlights/Highlight";
-
+import watchimg from './assets/watch.webp';
 function App() {
   return (
     <>
@@ -23,18 +23,25 @@ function App() {
 
       <CardSlider>
         <ProductCard
-          title="phone"
-          discount="4,000,000 Rial"
-          discount_percentage="40%"
-          price="8,000,000 Rial"
+          title="موبایل مدل"
+          discount="3,999,000 تومان"
+          discount_percentage="33%"
+          price="5,970,000 تومان"
           img={mobileimg}
         />
         <ProductCard
-          title="hedphone"
-          discount="6,000,000 Rial"
-          discount_percentage="30%"
-          price="7,500,00 Rial"
+          title="هدفون بلوتوثی مدل"
+          discount="499,000 تومان"
+          discount_percentage="44%"
+          price="899,000 تومان"
           img={headimg}
+        />
+        <ProductCard
+          title="ساعت هوشمند"
+          discount="3,990,000 تومان"
+          discount_percentage="33%"
+          price="5,970,00 تومان"
+          img={watchimg}
         />
       </CardSlider>
       <div>
